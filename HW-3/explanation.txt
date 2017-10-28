@@ -1,0 +1,17 @@
+Features List
+
+The ones that worked(or at least seem to work):
+1. Count of the number of punctuation for every line
+2. Count of " 's ", " 'st'" and " 'd " in the text since it has been used a lot
+3. Length of the each line of text
+4. Length of each line after of text removing punctuation
+5. Removing stopwords
+6. Counting the number of stopwords
+7. Stemming each word using Snowball Stemmer
+8. Count of Numbers "1" and "4" in text. Bronte has a lot of them while Shakesphere does not. Maybe due to scanning but definitely distinghushes between them
+
+The ones that didn't quite work(or showed no particular effect):
+1. Creating bigrams (no notable difference on hidden dev, decreased accuracy of visible dev)
+2. Character count of the line in text (decresed accuracy)
+3. Count the number of words in a line (decreased accuracy)
+4. Check the spelling of the stemmed word, if it belongs to en_GB(British Dictionary) or not.(dereased accuracy)
